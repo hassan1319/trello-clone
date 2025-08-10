@@ -2,7 +2,8 @@
 
 import { create } from 'zustand'
 import { devtools } from 'zustand/middleware'
-import type { Board, List, Task, AuthUser } from '@/types'
+import type { Board, List, Task } from '@/types'
+import type { AuthUser } from '@/lib/auth'
 
 interface AppState {
   // Auth state
